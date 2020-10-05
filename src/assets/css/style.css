@@ -700,6 +700,10 @@ section {
   padding-left: 20px;
 }
 
+
+
+
+
 @media screen and (max-width: 767px) {
   .team .single-memb {
     margin-bottom: 30px;
@@ -1310,10 +1314,8 @@ section {
     font-size: 14px;
   }
 
-  .membros {
-    width: 100vh;
-    height: 500px;
-  }
+
+ 
 }
 
 .error h2 {
