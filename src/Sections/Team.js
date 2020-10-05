@@ -117,7 +117,7 @@ class Team extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row membros">
                         { members }
                     </div>
                 </div>

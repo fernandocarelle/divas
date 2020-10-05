@@ -1309,6 +1309,11 @@ section {
   .error .btn {
     font-size: 14px;
   }
+
+  .membros {
+    width: 100vh;
+    height: 500px;
+  }
 }
 
 .error h2 {
