@@ -83,7 +83,7 @@ class Team extends Component {
                 autoplay
                 className="test-caro"
                 dots={true}
-                items={2}
+                items={3}
                 loop
                 margin={0}
                 nav={false}
