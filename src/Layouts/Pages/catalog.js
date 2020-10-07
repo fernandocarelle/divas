@@ -365,6 +365,7 @@ class Services extends Component {
                         id={ e.id }
                         name={ e.name }
                         description={ e.description }
+                        obs={ e.obs }
                         price={ e.price }
                         price2={ e.price2 }
                     />

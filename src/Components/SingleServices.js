@@ -12,6 +12,9 @@ const singleServices = props => {
                     <div className="description">
                         <span>{ props.description }</span>
                     </div>
+                    <div className="obs">
+                        <span>{ props.obs }</span>
+                    </div>
                     
                     <br/>
                     <div className="prices">
