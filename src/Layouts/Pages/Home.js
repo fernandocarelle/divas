@@ -11,6 +11,8 @@ import Contact from '../../Sections/Contact'
 
 import Highlights from '../../Sections/Highlights';
 
+import Whatsapp from '../../Components/Whatsapp';
+
 const home = props => {
     return (
         <React.Fragment>
@@ -19,9 +21,10 @@ const home = props => {
             <Service />
             <Highlights />
             <Testimonial />
-            <Team />
+            {/* <Team /> */}
             {/* <Appointment /> */}
             {/* <Blog /> */}
+            <Whatsapp />
             <Contact />
         </React.Fragment>
     )

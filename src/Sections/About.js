@@ -12,9 +12,9 @@ const aboutSec = props => {
                             <img src={ require("../assets/images/china-rose.png") } alt="" />
                             <span className="tagline">Sobre</span>   
                             <h3 className="sec-title">Um lugar de inspiração!</h3>
-                            <p>Há 07 anos oferecendo serviços de qualidade e atendimento personalizado. </p>
+                            <p>Há 07 anos no mercado, contamos com diversos profissionais com experiência, conhecimento técnico, domínio sobre as tendências e criatividade para a execução dos serviços de maneira a atender o desejo das nossas clientes. Estamos localizado no Bairro Jardim Icaraí em Niterói-RJ, um local dedicado à sua Beleza e Bem estar. <br/>  <br/> Ambiente aconchegante e equipamentos de ponta para que você tenha uma experiência incrível.  </p>
                         </div>
-                        <Link to="/about" className="btn1 btn1-round" >Saiba mais</Link>
+                        <Link to="/sobre" className="btn1 btn1-round" >Saiba mais</Link>
                     </div>
                 </div>
             </div>      

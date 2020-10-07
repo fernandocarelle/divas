@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import SingleServices from '../../Components/SingleServices'
+import Whatsapp from '../../Components/Whatsapp';
 
 class Services extends Component {
 
@@ -245,6 +246,111 @@ class Services extends Component {
                 price: "R$69,00",
                 price2: "R$89,00", 
                 
+            },
+            {
+                id: 31,
+                name: "Alongamento -  06 Sessões",
+                obs: "Pescoço, Costas e Pernas",
+                description: "Alongamentos surgem como aliados para relaxar os músculos, diminuindo a tensão e a dor.", 
+                price: "R$540,00",
+                price2: "R$720,00", 
+                
+            },
+            {
+                id: 32,
+                name: "4 Pés e Mãos + 1 Virilha Simples", 
+                description: "É rápida, sem resíduos e sua pele não fica irritada, como acontece com a lâmina de barbear. Todo material é descartável.", 
+                price: "R$186,00",
+                price2: "R$211,00", 
+                
+            },
+            {
+                id: 33,
+                name: "Cílios Fio a Fio ou Volume Russo", 
+                description: " O volume é alcançado através de pequenos “grupos” de fios sintéticos entre os naturais. Geralmente de 3 ou 4, e para que o resultado saia perfeito.", 
+                price: "R$190,00",
+                price2: "R$230,00", 
+                
+            },
+            {
+                id: 33,
+                name: "Cílios Fio a Fio ou Volume Russo", 
+                description: " O volume é alcançado através de pequenos “grupos” de fios sintéticos entre os naturais. Geralmente de 3 ou 4, e para que o resultado saia perfeito.", 
+                price: "R$190,00",
+                price2: "R$230,00", 
+                
+            },
+            {
+                id: 34,
+                name: "Drenagem método Renata França - 06 sessões", 
+                description: "Para quem procura tonalizar, reduzir medidas, redução de medidas e inchaço, principalmente na região abdominal e pernas, além da diminuição de celulites", 
+                price: "R$540,00",
+                price2: "R$960,00", 
+                
+            },
+            {
+                id: 35,
+                name: "Escova + Tratamento L'óreal ou Wella", 
+                description: "Com a aplicação do produto, os resultado é um cabelo bem mais disciplinado e com um aspecto renovado, brilho esplendoroso, maciez e sedosidade.", 
+                price: "R$89,00",
+                price2: "R$170,00", 
+                
+            },
+            {
+                id: 36,
+                name: "Matização - Pacote com 4", 
+                description: "Matização é a finalização de uma coloração, realçando os seus efeitos.", 
+                price: "R$280,00",
+                price2: "R$360,00", 
+                
+            },
+            {
+                id: 37,
+                name: "Sobrancelha + Buço + Axila", 
+                description: "É rápida, sem resíduos e sua pele não fica irritada, como acontece com a lâmina de barbear. Todo material é descartável.", 
+                price: "R$69,00",
+                price2: "R$83,00", 
+                
+            },
+            {
+                id: 38,
+                name: "Sobrancelhas + Buço + Limpeza de Pele", 
+                description: "É rápida, sem resíduos e sua pele não fica irritada, como acontece com a lâmina de barbear. Todo material é descartável.", 
+                price: "R$138,00",
+                price2: "R$178,00", 
+                
+            },
+            {
+                id: 39,
+                name: "Virilha cavada + Perna inteira", 
+                description: "É rápida, sem resíduos e sua pele não fica irritada, como acontece com a lâmina de barbear. Todo material é descartável.", 
+                price: "R$99,00",
+                price2: "R$130,00", 
+                
+            }, 
+            {
+                id: 40,
+                name: "Virilha Completa + Meia Perna", 
+                description: "É rápida, sem resíduos e sua pele não fica irritada, como acontece com a lâmina de barbear. Todo material é descartável.", 
+                price: "R$94,00",
+                price2: "R$120,00", 
+                
+            },
+            {
+                id: 41,
+                name: "Virilha Completa + Perna inteira", 
+                description: "É rápida, sem resíduos e sua pele não fica irritada, como acontece com a lâmina de barbear. Todo material é descartável.", 
+                price: "R$119,00",
+                price2: "R$140,00", 
+                
+            },
+            {
+                id: 42,
+                name: "Virilha simples + Meia perna", 
+                description: "É rápida, sem resíduos e sua pele não fica irritada, como acontece com a lâmina de barbear. Todo material é descartável.", 
+                price: "R$79,00",
+                price2: "R$83,00", 
+                
             },            
         ]
     }
@@ -283,9 +389,11 @@ class Services extends Component {
                         { members }
                     </div>
                 </div>
+                <Whatsapp />
             </section>
             // Team section end
         )
+
     }
     
 }

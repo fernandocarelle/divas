@@ -6,25 +6,25 @@ class Services extends Component {
     state = {
         services: [
             {
-                id: 28,
+                id: 3,
                 name: 'Cabeleireiro',
                 description: 'Ele é responsável por fazer uma sucção da pele, estimulando o sistema circulatório onde há celulite ou gordura localizada. Assim, elimina esses incômodos, dispensando cirurgias e evitando cicatrizes desnecessárias.',
 
             },
             {
-                id: 29,
+                id: 1,
                 name: 'Manicure',
                 description: 'O tratamento tem a capacidade de melhorar manchas solares e de envelhecimento, estrias, cicatrizes, olheiras, retirada de pintas e verrugas, e amenizar linhas de expressão e flacidez.',
 
             },
             {
-                id: 29,
+                id: 2,
                 name: 'Estética',
                 description: 'O tratamento tem a capacidade de melhorar manchas solares e de envelhecimento, estrias, cicatrizes, olheiras, retirada de pintas e verrugas, e amenizar linhas de expressão e flacidez.',
 
             },
             {
-                id: 29,
+                id: 23,
                 name: 'Depilação',
                 description: 'O tratamento tem a capacidade de melhorar manchas solares e de envelhecimento, estrias, cicatrizes, olheiras, retirada de pintas e verrugas, e amenizar linhas de expressão e flacidez.',
 
@@ -37,11 +37,11 @@ class Services extends Component {
 
         const services = this.state.services.map( e => {
             return (
-                <div className="col-md-6" key={ e.id }>
+                <div className="col-md-3" key={ e.id }>
                     <SingleServices 
                         id={ e.id }
                         name={ e.name }
-                        description={ e.description }
+                        
                     />
                 </div>
                 

@@ -22,8 +22,8 @@ const footer = props => {
                             </ul>
                         </nav>
                         <div className="foo-social">
-                            <Link to="#"><i className="ti-facebook"></i></Link>
-                            <Link to="#"><i className="ti-instagram"></i></Link>
+                            <a href="https://www.facebook.com/divasbelezaoficial/" target="blank"><i className="ti-facebook"></i></a>
+                            <a href="https://www.instagram.com/divassalaoicarai/" target="blank"><i className="ti-instagram"></i></a>
                             {/* <Link to="#"><i className="ti-twitter-alt"></i></Link>
                             <Link to="#"><i className="ti-vimeo-alt"></i></Link> */}
                             

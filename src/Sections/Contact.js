@@ -20,7 +20,7 @@ function Contact() {
     function send() {
         const formData = new FormData();
         Object.keys(campos).forEach(key => formData.append(key, campos[key]));
-        axios.post('https://api-divas.herokuapp.com/send',
+        axios.post('http://localhost:3030/send',
             formData,
             {
                 headers: {
@@ -99,7 +99,7 @@ function Contact() {
                                     ></textarea>
                                     {/* <label htmlFor="anexo">Anexo</label>
                                     <input type="file" id="anexo" name="anexo" /> */}
-                                    <button type="submit" className="btn btn-round">Enviar</button>
+                                    <button type="submit" className="btn1 btn1-round">Enviar</button>
                                 </form>
                             </div>
                         </div>

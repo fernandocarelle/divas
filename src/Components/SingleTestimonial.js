@@ -8,7 +8,7 @@ const singleTestimonial = props => {
                 <span>{props.description}</span>
                 <br/><br/>
                 <p>{props.name}</p>
-                <img src={ require("../assets/images/testimonials/" + props.id + ".jpg") } alt="" className="thumb" />
+                <img src={ require("../assets/images/testimonials/" + props.id + ".png") } alt="" className="thumb" />
                 
             </div>
         </div>

@@ -113,7 +113,7 @@ class Team extends Component {
                         <div className="col-lg-8 col-md-10 m-auto">
                             <div className="sec-heading">
                                 <h3 className="sec-title">Nosso Time</h3>
-                                <p>To doesn't his appear replenish together called he of mad place won't wherein blessed second every wherein were meat kind wherein and martcin</p>
+                                <p>Profissionais altamente qualificados!</p>
                             </div>
                         </div>
                     </div>
