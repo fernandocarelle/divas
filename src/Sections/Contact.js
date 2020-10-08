@@ -1,8 +1,12 @@
 import React, { useState } from 'react'
 import axios from 'axios';
+import { Spinner } from 'react-activity';
+import 'react-activity/dist/react-activity.css';
+
 
 function Contact() {
 
+    const [load, setLoad] = useState(false);
     const [campos, setCampos] = useState({
         nome: '',
         email: '',
@@ -31,9 +35,11 @@ function Contact() {
     }
 
     async function handleFormSubmit(event) {
+        setLoad(true);
         event.preventDefault();
         console.log(campos);
         await send(campos);
+        setLoad(false);
         alert("Email enviado com sucesso!");
         window.location.reload();
     }
@@ -46,14 +52,14 @@ function Contact() {
                     <div className="col-lg-8 col-md-10 m-auto">
                         <div className="sec-heading">
                             <h3 className="sec-title">Entre em contato</h3>
-                            <p>Queremos te ouvir!</p>
+                            <p>Queremos te ouvir!</p>  
                         </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-lg-10 col-md-12 m-auto">
                         <div className="row">
-                            <div className="col-md-4">
+                            <div className="col-md-4 infos">
                                 <address>
                                     <span className="ti-map-alt"></span>
                                         Rua Presidente João Pessoa 322 loja 105, Icaraí <br />
@@ -70,9 +76,10 @@ function Contact() {
                                     <a href="https://bit.ly/msgdivas" target="blank">21 96866-1212</a>
                                 </address>
                             </div>
+                            
                             <div className="col-md-7 offset-md-1">
                                 <form className="contact-form" onSubmit={handleFormSubmit}>
-
+                    
 
                                     <input
                                         type="text"
@@ -100,7 +107,11 @@ function Contact() {
                                     {/* <label htmlFor="anexo">Anexo</label>
                                     <input type="file" id="anexo" name="anexo" /> */}
                                     <button type="submit" className="btn1 btn1-round">Enviar</button>
+                                    <div className={load ? 'spinner' : 'spinnerFalse'} >
+                                            <Spinner size={20} color='#F98B36' />
+                                    </div>
                                 </form>
+                                
                             </div>
                         </div>
                     </div>

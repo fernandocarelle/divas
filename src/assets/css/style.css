@@ -1299,6 +1299,11 @@ section {
     font-size: 300px;
     line-height: 300px;
   }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
 }
 
 @media screen and (max-width:575px) {
@@ -1318,6 +1323,12 @@ section {
   }
   .error .btn {
     font-size: 14px;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
   }
 
 
@@ -1391,4 +1402,15 @@ section {
   color: #fff;
   background-color: rgba(0, 210, 60, 0.7);
   
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.spinnerFalse {
+  display: none;
 }
