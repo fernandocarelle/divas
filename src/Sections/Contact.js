@@ -30,10 +30,10 @@ function Contact() {
             .then(response => { console.log(response.data); })
     }
 
-    function handleFormSubmit(event) {
+    async function handleFormSubmit(event) {
         event.preventDefault();
         console.log(campos);
-        send(campos);
+        await send(campos);
         alert("Email enviado com sucesso!");
         window.location.reload();
     }
