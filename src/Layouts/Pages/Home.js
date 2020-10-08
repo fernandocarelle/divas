@@ -4,7 +4,7 @@ import AboutSec from '../../Sections/About';
 import Service from '../../Sections/Service'
 /* import Procedure from '../../Sections/Procedure' */
 import Testimonial from '../../Sections/Testimonial'
-import Team from '../../Sections/Team'
+/* import Team from '../../Sections/Team' */
 /* import Appointment from '../../Sections/Appointment'
 import Blog from './Blog' */
 import Contact from '../../Sections/Contact'
