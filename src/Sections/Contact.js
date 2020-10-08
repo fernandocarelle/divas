@@ -20,7 +20,7 @@ function Contact() {
     function send() {
         const formData = new FormData();
         Object.keys(campos).forEach(key => formData.append(key, campos[key]));
-        axios.post('http://localhost:3030/send',
+        axios.post('https://api-email-divas.herokuapp.com/send',
             formData,
             {
                 headers: {
