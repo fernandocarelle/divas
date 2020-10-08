@@ -1,5 +1,5 @@
-import React, { Component, useState } from 'react'
-import axios from '../axios-orders'
+import React, { useState } from 'react'
+import axios from 'axios';
 
 function Contact() {
 
