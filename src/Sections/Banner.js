@@ -16,7 +16,7 @@ const banner = props => {
                             <span>Centro de Beleza & Estética </span>
                             <h2>Você mais Diva!</h2>
                             <p>Quando você muda a energia do seu corpo, você muda a energia da sua vida.</p>
-                            <Link to={{ pathname: "https://bit.ly/vemprodivas" }} target="blank" className="btn1" >Agende um horário</Link>
+                            <Link to={{ pathname: "https://bit.ly/msgdivas" }} target="blank" className="btn1" >Agende um horário</Link>
                             {/* <a className="video-btn" data-fancybox href="">
                                 <i className="ti-control-play"></i>
                                 Watch our story

@@ -67,7 +67,7 @@ function Contact() {
                                 <address>
                                     <span className="ti-tablet"></span>
                                     <a href="tel:+552136191304(02)">21 3619-1304</a>
-                                    <a href="http://bit.ly/vemprodivas" target="blank">21 99227-7167</a>
+                                    <a href="https://bit.ly/msgdivas" target="blank">21 96866-1212</a>
                                 </address>
                             </div>
                             <div className="col-md-7 offset-md-1">
