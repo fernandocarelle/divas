@@ -73,14 +73,6 @@ class Services extends Component {
                 
             },
             {
-                id: 9,
-                name: "Carbox corporal - Pacote com 06 sessões", 
-                description: "A Carboxiterapia é um tratamento usado no combate das celulites, estrias e flacidez, e também reduz gordura localizada. ", 
-                price: "R$480,00",
-                price2: "R$540,00",
-                
-            },
-            {
                 id: 10,
                 name: "Pacote 4 Mãos + 2 Pés", 
                 description: "Manicure e pedicure: retirada de cutículas e pintura das unhas dos pés e mãos nas cores desejadas pela cliente. ", 
@@ -127,14 +119,6 @@ class Services extends Component {
                 price: "R$140,00",
                 price2: "R$220,00",
                 
-            },
-            {
-                id: 16,
-                name: "Carbox Facial - Pacote com 06 sessões", 
-                description: "O carboxiterapia estimula a formação de colágeno e novas fibras elásticas, ela é indicada para o tratamento das olheiras e rejuvenescimento facial", 
-                price: "R$299,00",
-                price2: "R$360,00",
-    
             },
             {
                 id: 17,
