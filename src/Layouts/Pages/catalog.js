@@ -28,16 +28,16 @@ class Services extends Component {
                 id: 3,
                 name: "Aplicação + Escova", 
                 description: "Dê uma nova cor aos cabelos por meio de aplicação: feita em todo o cabelo, ela colore o cabelo todo de maneira uniforme.", 
-                price: "R$84,00", 
+                price: "R$89,00", 
                 price2: "R$120,00",
                 
             },
             {
                 id: 4,
-                name: "Corte + Secagem",
+                name: "Corte + Finalização",
                 obs: "*Válido Terças e Quartas",
                 description: "Um corte de cabelo e uma mudança no visual nunca é demais! Você pode só aparar as pontinhas ou mudar totalmente seu look, para dar ainda mais vida a sua aparência.", 
-                price: "R$79,00",
+                price: "R$99,00",
                 price2: "R$149,00",
                 
             },
@@ -132,8 +132,8 @@ class Services extends Component {
                 id: 18,
                 name: "Pacote 4 Mãos + 2 Pés + 2 Sobrancelhas", 
                 description: "O tratamento diminui a espessura do pelo e retarda seu crescimento. É rápida, sem resíduos e todo material é descartável.", 
-                price: "R$160,00",
-                price2: "R$224,00", 
+                price: "R$199,00",
+                price2: "R$218,00", 
             },
             {
                 id: 19,
@@ -244,7 +244,7 @@ class Services extends Component {
                 id: 32,
                 name: "4 Pés e Mãos + 1 Virilha Simples", 
                 description: "É rápida, sem resíduos e sua pele não fica irritada, como acontece com a lâmina de barbear. Todo material é descartável.", 
-                price: "R$186,00",
+                price: "R$199,00",
                 price2: "R$211,00", 
                 
             },
@@ -292,7 +292,7 @@ class Services extends Component {
                 id: 37,
                 name: "Sobrancelha + Buço + Axila", 
                 description: "É rápida, sem resíduos e sua pele não fica irritada, como acontece com a lâmina de barbear. Todo material é descartável.", 
-                price: "R$69,00",
+                price: "R$79,00",
                 price2: "R$83,00", 
                 
             },
