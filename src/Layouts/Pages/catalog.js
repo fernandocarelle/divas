@@ -72,14 +72,14 @@ class Services extends Component {
                 price2: "R$225,00",
                 
             },
-            {
+            /* {
                 id: 10,
                 name: "Pacote 4 Mãos + 2 Pés", 
                 description: "Manicure e pedicure: retirada de cutículas e pintura das unhas dos pés e mãos nas cores desejadas pela cliente. ", 
                 price: "R$110,00",
                 price2: "R$148,00",
                 
-            },
+            }, */
             {
                 id: 11,
                 name: "Limpeza de Pele", 
