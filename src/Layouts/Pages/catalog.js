@@ -12,7 +12,7 @@ class Services extends Component {
                 obs: "*Válido Terças e Quartas",
                 description: "Manicure e pedicure: retirada de cutículas e pintura das unhas dos pés e mãos nas cores desejadas pela cliente",  
                 price: "R$39,00", 
-                price2: "R$74,01",
+                price2: "R$74,00",
             },
                 
             {   
