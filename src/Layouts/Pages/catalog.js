@@ -333,7 +333,7 @@ class Services extends Component {
                 name: "Virilha simples + Meia perna", 
                 description: "É rápida, sem resíduos e sua pele não fica irritada, como acontece com a lâmina de barbear. Todo material é descartável.", 
                 price: "R$79,00",
-                price2: "R$83,00", 
+                price2: "R$83,01", 
                 
             },            
         ]
