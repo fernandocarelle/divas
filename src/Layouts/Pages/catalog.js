@@ -93,7 +93,7 @@ class Services extends Component {
                 name: "Limpeza de pele + Peeling", 
                 description: "O peeling é um tratamento estético que faz uma esfoliação profunda da pele. Fique com uma pele mais bonita e saudável!", 
                 price: "R$99,00",
-                price2: "R$120,00",
+                price2: "R$140,00",
                 
             },
             {
@@ -130,7 +130,7 @@ class Services extends Component {
             },
             {
                 id: 18,
-                name: "Pacote 4 Mãos + 2 Pés + 2 Sobrancelhas", 
+                name: "Pacote 4 Mãos + 2 Pés + 1 Sobrancelhas", 
                 description: "O tratamento diminui a espessura do pelo e retarda seu crescimento. É rápida, sem resíduos e todo material é descartável.", 
                 price: "R$199,00",
                 price2: "R$218,00", 
