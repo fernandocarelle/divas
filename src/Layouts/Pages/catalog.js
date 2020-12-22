@@ -84,7 +84,7 @@ class Services extends Component {
                 id: 11,
                 name: "Limpeza de Pele",
                 description: "A limpeza de pele é um procedimento que visa remover cravos, espinhas, células mortas ou outras impurezas da pele. ",
-                price: "R$85,00",
+                price: "R$89,00",
                 price2: "R$100,00",
 
             },
@@ -92,7 +92,7 @@ class Services extends Component {
                 id: 12,
                 name: "Limpeza de pele + Peeling",
                 description: "O peeling é um tratamento estético que faz uma esfoliação profunda da pele. Fique com uma pele mais bonita e saudável!",
-                price: "R$99,00",
+                price: "R$110,00",
                 price2: "R$140,00",
 
             },
