@@ -73,7 +73,7 @@ function Contact() {
                                 <address>
                                     <span className="ti-tablet"></span>
                                     <a href="tel:+552136191304(02)">21 3619-1304</a>
-                                    <a href="https://bit.ly/msgdivas" target="blank">21 96866-1212</a>
+                                    <a href="https://bit.ly/agendadivas" target="blank">21 99436-4466</a>
                                 </address>
                             </div>
                             
