@@ -7,7 +7,7 @@ const banner = props => {
         // Banner section start
         <section className="banner">
             <div className="spa-img">
-                <img src={ require("../assets/images/spa2.png") } alt="" />
+                <img src={ require("../assets/images/modelo5.png") } alt="" />
             </div>
             <div className="container">
                 <div className="row">
