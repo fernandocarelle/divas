@@ -40,7 +40,7 @@ function Contact() {
         console.log(campos);
         await send(campos);
         /* setLoad(false); */
-        alert("Email enviado com sucesso!");
+        /* alert("Email enviado com sucesso!"); */
         window.location.reload();
     }
 
