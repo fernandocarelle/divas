@@ -41,7 +41,7 @@ function Contact() {
         await send(campos);
         /* setLoad(false); */
         /* alert("Email enviado com sucesso!"); */
-        window.location.reload();
+        /* window.location.reload(); */
     }
 
     return (
