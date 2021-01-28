@@ -1,9 +1,16 @@
 import React, { Component } from 'react'
-import SingleServices from '../Components/SingleServices'
+/* import SingleServices from '../Components/SingleServices' */
+
+import cabeleireiro from '../assets/images/servicos/cabeleireiro.png'
+import manicure from '../assets/images/servicos/manicure.png'
+import depilacao from '../assets/images/servicos/depilacao.png'
+import estetica from '../assets/images/servicos/estetica.png'
+import sobrancelha from '../assets/images/servicos/sobrancelha.png'
+import lash from '../assets/images/servicos/lash.png'
 
 class Services extends Component {
 
-    state = {
+    /* state = {
         services: [
             {
                 id: 28,
@@ -18,14 +25,15 @@ class Services extends Component {
 
             },           
         ]
-    }
+    } */
 
     render() {
 
 
-        const members = this.state.services.map( e => {
+        /* const members = this.state.services.map( e => {
             return (
-                <div className="col-md-6" key={ e.id }>
+                <div className="col-md-3" key={ e.id }>
+
                     <SingleServices 
                         id={ e.id }
                         name={ e.name }
@@ -33,8 +41,10 @@ class Services extends Component {
                     />
                 </div>
                 
+                
+                
             )
-        })
+        }) */
 
         return (
             // Team section start
@@ -48,8 +58,15 @@ class Services extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="row">
-                        { members }
+                    <div className="destaqueServ col-md-12">
+                       <p><img src={cabeleireiro} alt='Imagem Cabeleireiro' /></p> 
+                       <p><img src={manicure} alt='Imagem Manicure' /></p>
+                       <p><img src={depilacao} alt='Imagem Depilação' /></p>       
+                    </div>
+                    <div className="destaqueServ col-md-12">
+                       <p><img src={estetica} alt='Imagem Estética' /></p> 
+                       <p><img src={sobrancelha} alt='Imagem Sobrancelha' /></p>
+                       <p><img src={lash} alt='Imagem Lash Lifting' /></p>       
                     </div>
                 </div>
             </section>

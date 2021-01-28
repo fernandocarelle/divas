@@ -365,7 +365,7 @@ section {
 }
 
 .banner .spa-img {
-  width: 43.4%;
+  width: 41.8%;
   position: absolute;
   right: 0;
   top: 0;
@@ -1413,4 +1413,26 @@ section {
 
 .spinnerFalse {
   display: none;
+}
+
+.destaqueServ {
+  display: flex;
+  flex-direction: row;
+}
+
+.destaqueServ p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+
+.team {
+  background-color: rgb(255, 212, 182, .3)
+}
+
+.contact {
+  background-color: rgb(255, 212, 182, .3)
 }
