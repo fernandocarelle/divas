@@ -5,7 +5,7 @@ import Whatsapp from '../../Components/Whatsapp';
 const contact = props => {
     return (
         <Fragment>
-            <ContactSec {...props}/>
+            <ContactSec {...props} />
             <Whatsapp />
         </Fragment>
     )

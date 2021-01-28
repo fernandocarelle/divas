@@ -48,7 +48,7 @@ class Services extends Component {
 
         return (
             // Team section start
-            <section className="team">
+            <section className="team teambg">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 col-md-10 m-auto">
