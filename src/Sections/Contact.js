@@ -31,7 +31,7 @@ function Contact() {
                     "Content-Type": `multipart/form-data; boundary=${formData._boundary}`,
                 }
             })
-            .then(response => { console.log(response.data); alert('Email enviado'); window.location.reload(); })
+            .then(response => { console.log(response.data); alert('Mensagem enviada com sucesso!'); window.location.reload();  })
     }
 
     async function handleFormSubmit(event) {
