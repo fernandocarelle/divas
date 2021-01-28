@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import axios from 'axios';
-/* import { Spinner } from 'react-activity';
-import 'react-activity/dist/react-activity.css'; */
+import { Spinner } from 'react-activity';
+import 'react-activity/dist/react-activity.css';
 
 
 function Contact() {
 
-    /* const [load, setLoad] = useState(false); */
+    const [load, setLoad] = useState(false);
     const [campos, setCampos] = useState({
         nome: '',
         email: '',
@@ -31,15 +31,22 @@ function Contact() {
                     "Content-Type": `multipart/form-data; boundary=${formData._boundary}`,
                 }
             })
-            .then(response => { console.log(response.data); alert('Mensagem enviada com sucesso!'); window.location.reload();  })
+            .then(response => { 
+                
+                console.log(response.data); 
+                
+                alert('Mensagem enviada com sucesso!'); 
+                window.location.reload();  
+            })
     }
 
     async function handleFormSubmit(event) {
-        /* setLoad(true); */
+        setLoad(true);
         event.preventDefault();
         console.log(campos);
         await send(campos);
-        /* setLoad(false); */
+        setLoad(false);
+        
     }
 
     return (
@@ -104,10 +111,10 @@ function Contact() {
                                     ></textarea>
                                     {/* <label htmlFor="anexo">Anexo</label>
                                     <input type="file" id="anexo" name="anexo" /> */}
-                                    <button type="submit" className="btn1 btn1-round">Enviar</button>
-                                    {/* <div className={load ? 'spinner' : 'spinnerFalse'} >
-                                            <Spinner size={20} color='#F98B36' />
-                                    </div> */}
+                                    <div className={load ? 'spinner' : 'spinnerFalse'} >
+                                            <Spinner size={30} color='#F98B36' />
+                                    </div>
+                                        <button type="submit"  className="btn1 btn1-round">Enviar</button>                                    
                                 </form>
                                 
                             </div>
