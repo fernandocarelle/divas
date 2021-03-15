@@ -41,7 +41,7 @@ a:hover, a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Rufina', serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
@@ -319,7 +319,7 @@ section {
 .banner span {
   color: #F98B36;
   display: block;
-  font-family: "Rufina", serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -460,7 +460,7 @@ section {
 .service .single-service .service-hover span {
   color: #fff;
   display: block;
-  font-family: "Rufina", serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
@@ -534,7 +534,7 @@ section {
 
 .testimonial .single-tst p {
   color: #263a41;
-  font-family: "Rufina", serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 35px;
@@ -902,7 +902,7 @@ section {
 }
 
 .comments .reply {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
