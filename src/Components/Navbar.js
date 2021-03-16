@@ -50,7 +50,7 @@ class Navbar extends Component {
                                 <ul className={ this.state.menuOpen ? "active" : '' }> 
                                     <li><NavLink to="/" onClick={ this.clearStateHandler }>Home</NavLink></li>
                                     <li><NavLink to="/sobre" onClick={ this.clearStateHandler }>Sobre</NavLink></li>
-                                    <li><NavLink to="/catalogo" onClick={ this.clearStateHandler }>Catálogo</NavLink></li>
+                                    <li><NavLink to={{ pathname: "https://divasbeleza.lojavirtualnuvem.com.br/" }} target="_blank" onClick={ this.clearStateHandler }>Loja</NavLink></li>
                                     <li><NavLink to="/servicos" onClick={ this.clearStateHandler }>Serviços</NavLink></li>
                                     {/* <li><NavLink to="/blog" onClick={ this.clearStateHandler }>Blog</NavLink></li> */}
                                     <li><NavLink to="/contato" onClick={ this.clearStateHandler }>Contato</NavLink></li>
