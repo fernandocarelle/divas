@@ -16,7 +16,7 @@ const footer = props => {
                             <ul> 
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/sobre">Sobre</Link></li>
-                                <li><Link to={{ pathname: "https://divasbeleza.lojavirtualnuvem.com.br/" }} target="_blank">Loja</Link></li>
+                                <li><Link to={{ pathname: "https://loja.divasbeleza.com.br/" }} target="_blank">Loja</Link></li>
                                 <li><Link to="/servicos">Serviços</Link></li>
                                 <li><Link to="/contato">Contato</Link></li>
                             </ul>
